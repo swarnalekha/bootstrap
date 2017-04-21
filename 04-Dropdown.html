@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dropdown Demo</title>
+
+    <!-- Bootstrap -->
+    <link href="../bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+	
+ </head>
+  <body>
+  <div class="container">
+  <div class="jumbotron">
+  <h1>drop down menu</h1>
+  </div>
+  	<div class="page-header">
+		<h1>Dropdown demo</h1>
+	</div>
+		<h3>Dropdowns</h3>
+	<div class="dropdown">
+		<button class="btn btn-primary" data-toggle="dropdown">
+			Select an option <span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="#" tabindex="-1">Apply Leave</a></li>
+			<li><a href="#" tabindex="1">Request PC</a></li>
+			<li class="disabled"><a href="#" tabindex="-1">View Policies</a></li>
+			<li class="divider"></li>	
+			<li role="presentation" class="dropdown-header">Popular Options</li>
+			<li><a href="#" tabindex="3">TimeSheet Entry</a></li>
+			<li><a tabindex="4" href="#">Raise Ticket</a></li>
+		</ul>
+   </div>
+    <hr/>
+	<h3>Split Button Dropdowns</h3>
+	<div class="btn-group"> 
+		<button type="button" class="btn btn-primary">Select an option</button> 
+		<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> 
+			<span class="caret"></span>
+		</button> 
+		<ul class="dropdown-menu" role="menu"> 
+			<li><a href="#" tabindex="-1">One</a></li>
+			<li><a href="#" tabindex="-1">Two</a></li>
+			<li><a href="#" tabindex="-1">Three</a></li>
+		</ul> 
+	</div>
+	    <hr/>
+	<!--Align the dropdown menu to right by adding the class .pull-right to .dropdown-menu. -->
+<h3>Right Aligned Dropdowns</h3>
+<div class="dropdown">
+   <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" 
+      data-toggle="dropdown">Topics
+      <span class="caret"></span>
+   </button>
+   <ul class="dropdown-menu pull-right" style="bottom:100%;">
+      <li><a tabindex="-1" href="#">Java</a></li>
+      <li><a tabindex="-1" href="#">Data Mining</a></li>
+      <li><a tabindex="-1" href="#">Data Communication/Networking</a></li>
+      <li role="presentation" class="divider"></li>
+      <li><a tabindex="-1" href="#">Separated link</a></li>
+   </ul>
+</div>
+
+<h2>Dropdowns / Dropups</h2>
+  <p>The .dropup class is used to indicate a dropup menu.</p>
+  <p>Use the .dropdown-menu class to actually build the dropup menu.</p>  
+<div style="position: relative;">
+  <div class="dropup">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Tutorials
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+    </ul>
+  </div>
+</div>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
+    <script src="../jQuery/jquery-1.11.1.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

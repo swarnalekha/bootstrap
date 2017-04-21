@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buttongroup Demo</title>
+
+    <!-- Bootstrap -->
+    <link href="../bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+	
+ </head>
+   <body>
+  <div class="container">
+	<div class="page-header">
+		<h1>Buttongroup demo</h1>
+	</div>
+	<h4>Button groups</h4>
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default">Home</button>
+  <button type="button" class="btn btn-default">Contacts</button>
+   
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Services
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Training</a></li>
+      <li><a href="#">Consulting</a></li>
+	  <li><a href="#">Maintanence</a></li>
+    </ul>
+  </div>
+</div>
+<br/>
+<hr/>
+<h2> Vertical Button Groups </h2>
+   <div class="btn-group-vertical" data-toggle="buttons" name="h1">
+		<button class="btn btn-primary active"><input type="checkbox" name="hobbies" value="Cricket">Cricket</button>
+		<button class="btn btn-primary"><input type="checkbox" name="hobbies" value="Music">Music</button>
+		<button class="btn btn-primary"><input type="checkbox" name="hobbies" value="Tennis">Tennis</button>
+	</div>
+
+  </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
+    <script src="../jQuery/jquery-1.11.1.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Multiple Grids</title>
+
+    <!-- Bootstrap -->
+    <link href="../bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		body {
+			padding: 0 16px;
+		}
+		
+		[class*="col-"] {
+		  color:white;
+		  padding: 1em 0;
+		  background-color: blue;
+		  border: 1px solid powderblue;
+		}
+	</style>
+ </head>
+  <body>
+  <div class="container">
+	<h2>Multiple Grids</h2>
+
+     <div class="row">
+		<div class="col-md-4 col-xs-8 col-lg-6 col-sm-2">
+        	.col-md-4 col-xs-8 col-lg-6 col-sm-2
+        </div>
+		<div class="col-xs-4 col-md-4 col-lg-6 col-sm-6">
+        	.col-xs-6 col-md-4 col-lg-6 col-sm-6
+        </div>
+	 </div>
+	 <div class="row">
+		<div class="col-md-6 col-xs-8 col-lg-10 col-sm-5">
+	      <span class="visible-lg">OOPS its a laptop</span>
+		  <span class="visible-md">Do you play games in a tab?</span>
+		  <span class="visible-sm">This is a small device</span>
+		  <span class="visible-xs">Your eyes are precious</span>
+		</div> 
+	 </div>
+	 
+	  </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
+    <script src="../jQuery/jquery-1.11.1.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
